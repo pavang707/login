@@ -1,38 +1,120 @@
-.App {
+
+body{
+  top:25%;
+  left: 25%;
+  background: url("./n1.jpg");
+  height: 100%;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  
+
+}
+.bbt{
+  background: lightblue;
+  opacity: 0.9;
+ 
+  
+}
+
+.col-12{
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#whole{
+  display: block;
+  margin-top: 50px;
+  padding-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  background: lightskyblue;
+  opacity: 0.7;
+ 
+  
+}
+.aftergooglelogin{
+  margin-top: 50px;
+ 
+}
+#cr7{
+  position:relative;
+  top: 0;
+  left:38%;
+  opacity: 0.8;
+}
+#lastcontent{
+  position: relative;
+
+  top: 0px;
+  left: 25%;
+  
+  
+}
+.content{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btnFacebook { 
+  width: 250px;
+  height:35px;  
+  border-radius: 4px;
+  background: #3b5998;
+  color:white;
+  border:0px transparent;  
+  text-align: center;
+  margin:5px;
+  display:-moz-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.btnGoogle { 
+  margin:5px;
+  width: 250px;
+  height:35px;
+  border-radius: 4px;
+  background: #db3236;
+  color:white;
+  border:0px transparent;
+  text-align: center;
+}
+.btntwitter{
+  margin:5px;
+  width: 250px;
+  height:35px;
+  border-radius: 4px;
+  background: #3075dd;
+  color:white;
+  border:0px transparent;
+  text-align: center;
+
+}
+.btnFacebook:hover {
+  background: #3b5998;
+  opacity: 0.6;
+}
+.btnGoogle:hover {
+  background: #db3236;
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 600px) {
+  #lastcontent{
+    position: relative;
+  
+    top: 0px;
+    left: 52px;
+  } 
+  #cr7{
+    position:relative;
+    top: 0;
+    left:28%;
+    opacity: 0.8;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width : 399px) {
+  .btnFacebook,.btnGoogle{
+    width: 100%
   }
 }

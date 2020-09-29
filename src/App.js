@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Google from './Google'
+import React from 'react';
+import FacebookLoginWithButton from 'react-facebook-login';
+import GoogleLoginButton from 'react-social-login-buttons'
+class App extends React.Component {
+    
+  render() {
+    return (
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <>
+      
+      <div className="bbt">
+      <Google/>
+         </div>
+       
+       
+      </>
+      
+      
+    )
+  }
 }
 
-export default App;
+export default App
